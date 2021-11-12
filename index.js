@@ -14,9 +14,11 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
 }
+//If player 2 wins
 else if (randomNumber2 > randomNumber1) {
   document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
 }
+//If Draw happens
 else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
